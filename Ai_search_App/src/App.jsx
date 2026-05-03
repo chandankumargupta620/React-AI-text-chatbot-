@@ -1,7 +1,8 @@
 
 import { useEffect, useRef, useState } from 'react';
 import './App.css'
-import { URL } from './Constants';
+//import { URL } from './Constants';
+const URL = import.meta.env.VITE_GEMINI_API;
 
 import History from './components/History';
 import QustionAns from './components/QustionAns';
